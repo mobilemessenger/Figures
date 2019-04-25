@@ -10,3 +10,5 @@ git init
 git status
 git add .
 git add text.TXT
+
+git commit -m "first commit"
