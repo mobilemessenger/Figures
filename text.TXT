@@ -11,4 +11,4 @@ git status
 git add .
 git add text.TXT
 
-git commit -m "first commit"
+git commit -m "first commit"                 //это значит сделать снимок "add files"  проиндексированых файлов
