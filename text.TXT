@@ -1,0 +1,12 @@
+комманды
+git config --global user.name "igor o"
+git config --global user.email "mobile.messenger@outlook.com"
+
+git config --list
+git help comit
+
+cd h:/git_reposit
+git init
+git status
+git add .
+git add text.TXT
