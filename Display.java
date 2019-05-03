@@ -3,16 +3,24 @@ package myPrivate;
 public class Display {
 
 	public static void main(String[] args) {
-		Ring     ring    =new Ring (3,"белый");
-		Triangle triangle=new Triangle (4,4,"красный");
+		Ring     ring    =new Ring (3,"ГЎГҐГ«Г»Г©");
+		Triangle triangle=new Triangle (4,4,"ГЄГ°Г Г±Г­Г»Г©");
 
 		
 		
-		for ( double i=Math.random()*10; i<10;i++) 
-			{System.out.println("Круг  "+ring.color+",  Площадь "+ring.sq);} //вывод случайного количества кругов        (с площадью и цветом)
-		for ( double j=Math.random()*10; j<10;j++)                           //вывод случайного количества треугольников (с площадью и цветом)
-			{System.out.println("Треугольник  "+triangle.color+",  Площадь "+triangle.sq);}
-		System.out.println(triangle.getHypotenuse());                               // уникальный метод круга
-	}																		//По аналогии будет прописано рандом для трапеции и квадрата; добавлено уникальные методы 					
+		for ( double i=Math.random()*10; j<10;j++)                               //РІС‹РІРѕРґ СЃР»СѓС‡Р°Р№РЅРѕРіРѕ РєРѕР»РёС‡РµСЃС‚РІР° РєСЂСѓРіРѕРІ        (СЃ РїР»РѕС‰Р°РґСЊСЋ Рё С†РІРµС‚РѕРј)
+			{System.out.println("РљСЂСѓРі  "+ring.color+",  РџР»РѕС‰Р°РґСЊ "+ring.sq);} 
+		for ( double j=Math.random()*10; j<10;j++)                               //РІС‹РІРѕРґ СЃР»СѓС‡Р°Р№РЅРѕРіРѕ РєРѕР»РёС‡РµСЃС‚РІР° С‚СЂРµСѓРіРѕР»СЊРЅРёРєРѕРІ (СЃ РїР»РѕС‰Р°РґСЊСЋ Рё С†РІРµС‚РѕРј)
+			{System.out.println("РўСЂРёСѓРіРѕР»СЊРЅРёРє  "+triangle.color+",  РџР»РѕС‰Р°РґСЊ "+triangle.sq);}
+		for ( double j=Math.random()*10; j<10;j++)                               
+			{System.out.println("РўСЂР°РїРµС†РёСЏ  "+trapeze.color+",  РџР»РѕС‰Р°РґСЊ "+trapeze.sq);}
+		for ( double j=Math.random()*10; j<10;j++)                               
+			{System.out.println("РљРІР°РґСЂР°С‚  "+square.color+",  РџР»РѕС‰Р°РґСЊ "+square.sq);}
+		
+		System.out.println(ring.getRadius());                                    // СѓРЅРёРєР°Р»СЊРЅС‹Р№ РјРµС‚РѕРґ РєСЂСѓРіР°
+		System.out.println(triangle.getHypotenuse());                            // СѓРЅРёРєР°Р»СЊРЅС‹Р№ РјРµС‚РѕРґ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
+		System.out.println(trapeze.getHeight()); 				 // СѓРЅРёРєР°Р»СЊРЅС‹Р№ РјРµС‚РѕРґ С‚СЂР°РїРµС†РёРё
+		System.out.println(square.getSide());					 // СѓРЅРёРєР°Р»СЊРЅС‹Р№ РјРµС‚РѕРґ РєРІР°РґСЂР°С‚Р°
+	}																		//ГЏГ® Г Г­Г Г«Г®ГЈГЁГЁ ГЎГіГ¤ГҐГІ ГЇГ°Г®ГЇГЁГ±Г Г­Г® Г°Г Г­Г¤Г®Г¬ Г¤Г«Гї ГІГ°Г ГЇГҐГ¶ГЁГЁ ГЁ ГЄГўГ Г¤Г°Г ГІГ ; Г¤Г®ГЎГ ГўГ«ГҐГ­Г® ГіГ­ГЁГЄГ Г«ГјГ­Г»ГҐ Г¬ГҐГІГ®Г¤Г» 					
 
 }
